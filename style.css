@@ -1,0 +1,156 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+}
+.banner{
+background-image: url(images/donation2.jpg);
+background-repeat: no-repeat;
+text-align: center;
+background-size: 100% 100%;
+padding: 12%;
+opacity: 2;
+}
+.banner h1{
+    color: rgba(240, 117, 117, 0.823);
+    font-size: 65px;
+    font-weight: 700;
+}
+.banner h3{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.custom-button{
+    background-color:#FF5959;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 7px 9px;
+    font-size: 22px;
+    color: aliceblue;
+}
+/* banner-end */
+.donation-money{
+    text-align: center;
+}
+.donation-titles{
+    margin: 50px ;
+}
+.donation-titles h1{
+    color:#121212;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.donation-titles p{
+    color: #B3B3B3;
+    text-align: center;
+    font-size: 20px;
+    width: 50%;
+    margin: 0 auto;
+}
+.amaount{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
+.amaount h2{
+    margin-right: 47px;
+    background-color: #dcd8d86b;
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+.other-amount{
+    width: 50%;
+    margin: 0 auto;
+} 
+.donation-money hr{
+    margin-bottom: 30px;
+    color: #B3B3B3;
+}
+
+#selected-amaount{
+    color: #FF5959;
+    border:2px solid #FF5959;
+    background-color: #FFEEEE;
+}
+/* donate-section-end */
+
+/* donate-plan-start */
+.donation-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.donation-card{
+    width: 30%;
+    float: left;
+    margin-right: 15px;
+    padding: 60px 30px;
+}
+.donation-card p{
+    color: 
+    #707070;
+}
+#food-card{
+    background-color: rgba(79, 157, 166, 0.1);
+    border-radius: 10px;
+}
+#shelter-card{
+    background-color: rgba(255, 89, 89, 0.1);
+    border-radius: 10px;
+}
+#Education-card{
+    background-color: 
+    #FFF4D6;
+    border-radius: 10px;
+}
+
+.email-area{
+    background-color: #FFF4D6;
+    text-align: center;
+    height: 200px;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.email-area input{
+    margin-top: 80px;
+}
+#email-input{
+    background-color: #D9D9D9;
+    color: 
+    #AA9F9F;
+    border: 0px solid;
+    padding: 2%;
+    border-radius: 4px;
+    width: 40%;
+    font-size: 16px;
+}
+#input-submit{
+    background-color: #FF5959;
+    border: 0px solid;
+    color: 
+    #FFFFFF;
+    padding: 2% 4%;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.footer-area{
+    background-color: #0B0D17;
+    padding: 40px;
+    margin-top: 7%;
+}
+.footer-area h1{
+     color: #FF5959;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+.footer-area p{
+    color:  #D9DBE1;
+    text-align: center;
+}
