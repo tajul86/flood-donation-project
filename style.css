@@ -105,11 +105,41 @@ opacity: 2;
     border-radius: 10px;
 }
 #Education-card{
-    background-color: 
-    #FFF4D6;
+    background-color: #FFF4D6;
     border-radius: 10px;
 }
+.portfolio{
+    margin-top: 50px;
+}
 
+.portfolio-foundation{
+    text-align: center;
+    font-size: 28px;
+    background-color: #ff5959ac;
+    padding: 3%;
+    width: 50%;
+    margin: 0 auto;
+    border-radius:20px;
+}
+.helped-area{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    
+}
+#area-one{
+    background-color: rgba(79, 157, 166, 0.1);
+    padding: 3%;
+    border-radius: 20px;
+    color: #454444;
+}
+#area-two{
+    background-color: #FFF4D6;
+    padding: 3%;
+    border-radius: 20px;
+    color: #454444;
+}
 .email-area{
     background-color: #FFF4D6;
     text-align: center;
